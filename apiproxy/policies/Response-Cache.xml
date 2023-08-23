@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ResponseCache async="false" continueOnError="false" enabled="true" name="Response-Cache">
+    <DisplayName>Response Cache</DisplayName>
+    <Properties/>
+    <CacheKey>
+        <KeyFragment>test </KeyFragment>
+        <KeyFragment ref="proxy.pathsuffix"/>
+    </CacheKey>
+    <Scope>Exclusive</Scope>
+    <ExpirySettings>
+        <ExpiryDate/>
+        <TimeOfDay/>
+        <TimeoutInSec ref="">3600</TimeoutInSec>
+        <CacheControl>InCache</CacheControl>
+    </ExpirySettings>
+    <SkipCacheLookup/>
+    <SkipCachePopulation/>
+</ResponseCache>

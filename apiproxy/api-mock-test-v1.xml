@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="30" name="api-mock-test-v1">
+    <Basepaths>/api/mock/test/v1</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1692549103448</CreatedAt>
+    <CreatedBy>dataem2011@hotmail.com</CreatedBy>
+    <Description>Previo antes de mi examen</Description>
+    <DisplayName>api-mock-test-v1</DisplayName>
+    <LastModifiedAt>1692769949122</LastModifiedAt>
+    <LastModifiedBy>dataem2011@hotmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:0ef6b60f8c27d899eb3c601bb81917187ac416f15b238da6c20ffcaf112cca027d96fc6d30cf1376b9343e707f5853ef86075cdbc1b8f04503208ba984405473:us-east-1</ManifestVersion>
+    <Policies>
+        <Policy>AssignElevationParameters</Policy>
+        <Policy>ExecuteGeocodingRequest</Policy>
+        <Policy>GenerateGeocodingRequest</Policy>
+        <Policy>GenerateResponse</Policy>
+        <Policy>OAuthToken</Policy>
+        <Policy>ParseElevationResponse</Policy>
+        <Policy>ParseGeocodingResponse</Policy>
+        <Policy>Response-Cache</Policy>
+        <Policy>Transformacion</Policy>
+        <Policy>XML-to-JSON-1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+        <ProxyEndpoint>default2</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://GenerateResponse.js</Resource>
+        <Resource>jsc://association.json</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+        <TargetEndpoint>default2</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

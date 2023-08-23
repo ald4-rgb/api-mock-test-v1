@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TargetEndpoint name="default">
+    <Description/>
+    <FaultRules/>
+    <PreFlow name="PreFlow">
+        <Request/>
+        <Response/>
+    </PreFlow>
+    <Flows>
+        <Flow name="XML response">
+            <Description>View XML response</Description>
+            <Request/>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/xml") and (request.verb = "GET")</Condition>
+        </Flow>
+        <Flow name="json response">
+            <Description>Ver json</Description>
+            <Request/>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/json") and (request.verb = "GET")</Condition>
+        </Flow>
+    </Flows>
+    <PostFlow name="PostFlow">
+        <Request/>
+        <Response>
+            <Step>
+                <Name>Response-Cache</Name>
+            </Step>
+            <Step>
+                <Name>Transformacion</Name>
+            </Step>
+        </Response>
+    </PostFlow>
+    <HTTPTargetConnection>
+        <Properties/>
+        <URL>https://mocktarget.apigee.net/</URL>
+    </HTTPTargetConnection>
+</TargetEndpoint>

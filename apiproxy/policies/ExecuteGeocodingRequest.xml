@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ServiceCallout name="ExecuteGeocodingRequest">
+    <Request variable="GeocodingRequest"/>
+    <Response>GeocodingResponse</Response>
+    <HTTPTargetConnection>
+        <URL>http://maps.googleapis.com/maps/api/geocode/json</URL>
+    </HTTPTargetConnection>
+</ServiceCallout>

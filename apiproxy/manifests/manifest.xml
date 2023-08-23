@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AssignElevationParameters" version="SHA-512:eb526ed53392c5c38965a77dd3e3f7865e87610b971d601a124ccb910aee7a025980742ec362206971d4216589c3cc618d6d0225492dc1f5a829a6bf00b767a0"/>
+        <VersionInfo resourceName="ExecuteGeocodingRequest" version="SHA-512:a928aae88fdbe5fe8fb4e4ffcb3e0d953a2003587d262c8e73e61d8842d55efda6f9e8e234b697664b2b8f8f513672a7a12678c428a8fd4ab38ca974bcea5e1b"/>
+        <VersionInfo resourceName="GenerateGeocodingRequest" version="SHA-512:3ad9fc0d169c75fbf91dbde5233448b11327d7739d48b9b121350edf439e4bdf7d924a4f079235e012f517e1819573c8fa174d710fc683ad7b7852f7392ec1e6"/>
+        <VersionInfo resourceName="GenerateResponse" version="SHA-512:028ff154a2d7cdf924c4c60c5fff141c8e452b91879f93fab80545ee214af0f86fa2d1b22d5cdb892d36a5b9b65cecee7d4f77443d7cabe8bfee9a20420571d4"/>
+        <VersionInfo resourceName="OAuthToken" version="SHA-512:d988c4bd41e34a9c84f10f36aadc55be7d4f4ceab996ed708f82e2ee49cc118cd876c9b5d07ff8bf017e534dbda39f811d836b2c6a1241545ad2ebd138913599"/>
+        <VersionInfo resourceName="ParseElevationResponse" version="SHA-512:9b3b375412cc2ffd6861e28e8c99bf0b18c9517db4b784c8f15823c122c1c38cdac785c5eb7bf3e7705e7d4e93230b2d8513b9cd40bdb3b52dbeabc9f75e748b"/>
+        <VersionInfo resourceName="ParseGeocodingResponse" version="SHA-512:4cb2deb96b9b2446de603fdf8835ed4d4516d780f6e2cbcf742d89f2d23c5af2a3762cf17238f8b5a59d61571ac0f2fe9938692a93d4c113f76d2f91fed08d0e"/>
+        <VersionInfo resourceName="Response-Cache" version="SHA-512:d9913ffd12867a2fc774c7ab8e092ab1063be86e75110fa382307034774fc4e2a85a06905b4e8b24b46f216b21de4ee9e89f2e81470cf66402f835d10c5ea4fb"/>
+        <VersionInfo resourceName="Transformacion" version="SHA-512:c75cc0a48e92b24d87b68ce5fee393317e2897ee4a29e867133b3046c757bbb39249bb85d9e54e698f4a98417603e922921a4549b057124afc597a5d084925ea"/>
+        <VersionInfo resourceName="XML-to-JSON-1" version="SHA-512:7c50699fbd9997ccd2c5962b82383c0676a0136e6c1901606b59099bb5d8742d00a423d9b965f41e9089871a0de535a12baf669e127fd95b2c03709ad344ffdd"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:9f61eeea0cf4e7f151e26c15629fbd636721a5e9cb3f97fe7c78c9435eac7cb404662c80828942ca407a97688f0f38ffcb626711406352b2334e436450006729"/>
+        <VersionInfo resourceName="default2" version="SHA-512:902872c38ab01da45bf80d4c8617e9de03541e26e152ef4ec341a838122b81f842977957d45cfb29232e6ef48271259f72d31eec3325e664b520b8fd952e794f"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://GenerateResponse.js" version="SHA-512:ac9b785b877736385e7f64e8db3ddef13752badc63549b99f6622d0f1004660f7c9fc3fd4c743901e0dce3f9d015f432685bc730d9bac02fd4e0752a64ec287b"/>
+        <VersionInfo resourceName="jsc://association.json" version="SHA-512:2506ff9538b6228d38d195750adc964f95e102521a0e25f971c44c55ad2b8d58abb1e796f0db0eaaee6f207942defdb77dba76ad301a09f5ff0c233db38c82b9"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:506f4fd5e02765457b4782c96345055aeb9ece643150747d4f518b47ed5c72f08fec912a10e85adeb235d9f7b5f20eceebde3a80c3998109ed30d769ca12d55f"/>
+        <VersionInfo resourceName="default2" version="SHA-512:9b4ed193c90724e7ed15b8728a725ded5ae826149c1e74c23ebc19f5a30850a63d07b0f7d9f1a8f52785b4f7c237b732c64d705ba587a0543ac9f41d20fe49d4"/>
+    </TargetEndpoints>
+</Manifest>

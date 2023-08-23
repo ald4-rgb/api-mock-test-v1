@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProxyEndpoint name="default2">
+    <Flows>
+        <Flow name="default2">
+            <Request>
+                <Step>
+                    <Name>ExecuteGeocodingRequest</Name>
+                </Step>
+                <Step>
+                    <Name>GenerateGeocodingRequest</Name>
+                </Step>
+                <Step>
+                    <Name>ParseGeocodingResponse</Name>
+                </Step>
+                <Step>
+                    <Name>AssignElevationParameters</Name>
+                </Step>
+            </Request>
+            <Response>
+                <Step>
+                    <Name>ParseElevationResponse</Name>
+                </Step>
+                <Step>
+                    <Name>GenerateResponse</Name>
+                </Step>
+            </Response>
+        </Flow>
+    </Flows>
+    <HTTPProxyConnection>
+        <BasePath>/policy-mashup-cookbook</BasePath>
+        <Properties/>
+        <VirtualHost>default</VirtualHost>
+        <VirtualHost>secure</VirtualHost>
+    </HTTPProxyConnection>
+    <RouteRule name="default2">
+        <TargetEndpoint>default2</TargetEndpoint>
+    </RouteRule>
+</ProxyEndpoint>

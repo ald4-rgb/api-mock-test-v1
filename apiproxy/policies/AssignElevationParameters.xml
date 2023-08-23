@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage name="AssignElevationParameters">
+    <Remove>
+        <QueryParams>
+            <QueryParam name="country"/>
+            <QueryParam name="postalcode"/>
+        </QueryParams>
+    </Remove>
+    <Set>
+        <QueryParams>
+            <QueryParam name="locations">{geocoderesponse.latitude},{geocoderesponse.longitude}</QueryParam>
+            <QueryParam name="sensor">false</QueryParam>
+        </QueryParams>
+    </Set>
+</AssignMessage>

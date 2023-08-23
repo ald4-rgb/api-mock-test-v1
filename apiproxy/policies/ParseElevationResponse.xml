@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="ParseElevationResponse">
+    <DisplayName>ParseElevationResponse</DisplayName>
+    <VariablePrefix>elevationresponse</VariablePrefix>
+    <XMLPayload>
+        <Variable name="elevation" type="float">
+            <XPath>/ElevationResponse/result[1]/elevation/text()</XPath>
+        </Variable>
+    </XMLPayload>
+</ExtractVariables>
